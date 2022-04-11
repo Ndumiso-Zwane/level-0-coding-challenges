@@ -1,5 +1,5 @@
-function even_or_odd(num){
+function evenOrOdd(num){
     num % 2 === 0 ? console.log("even") : console.log("odd"); 
 }
 
-even_or_odd(3);
+evenOrOdd(3);
