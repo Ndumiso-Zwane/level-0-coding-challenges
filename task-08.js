@@ -1,6 +1,6 @@
 function toTime(num) {
-    hours = Math.floor(num / 60);
-    minutes = num % 60;
+    const hours = Math.floor(num / 60);
+    const minutes = num % 60;
 
     if (hours === 1 && minutes === 1){
         time = hours + " hour, " + minutes + " minute";

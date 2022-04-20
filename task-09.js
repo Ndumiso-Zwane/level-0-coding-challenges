@@ -1,21 +1,21 @@
-function findVowels(sentance){
-    vowels = []; 
-    if (sentance.includes("a") || sentance.includes("A")){
+function findVowels(sentence){
+    const vowels = []; 
+    if (sentence.includes("a") || sentence.includes("A")){
         vowels.push("a");
     }
-    if (sentance.includes("e") || sentance.includes("E")){
+    if (sentence.includes("e") || sentence.includes("E")){
         vowels.push("e");
     }
-    if (sentance.includes("i") || sentance.includes("I")){
+    if (sentence.includes("i") || sentence.includes("I")){
         vowels.push("i");
     }
-    if (sentance.includes("o") || sentance.includes("O")){
+    if (sentence.includes("o") || sentence.includes("O")){
         vowels.push("o");
     }
-    if (sentance.includes("u") || sentance.includes("U")){
+    if (sentence.includes("u") || sentence.includes("U")){
         vowels.push("u");
     }
-    return "Vowels: " + vowels;
+    console.log("Vowels: " + vowels);
 }
 
-console.log(findVowels("Umuzi"));
+findVowels("Umuzi");
